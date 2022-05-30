@@ -1,0 +1,149 @@
+h1{
+    text-align: center;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font: 1em Arial;
+}
+main {
+    margin: 2%;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    }
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    margin-left: 30%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 16%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+}
+#actual{
+    background-color:red;
+}
+
+div img{
+    margin-left: -5%;
+    width: 350px;
+    height: 225px;
+}
+
+footer{
+    text-align: right;
+    color: white;
+    text-emphasis-color: black;
+}
+
+#registro{
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 40%;
+
+}
+
+#Enviar {
+    text-align: center;
+}
+
+table tr td{
+    padding: 2px
+}
+
+
+#talla{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.social {
+	left: 0; 
+	top: 200px; 
+	z-index: 2000;
+    margin-top: 10%;
+    width:50%;
+    height: 500px;
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; 
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} 
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
+	}
+
+    @media screen and (min-width: 1500px){
+        body{font-size: 30px;
+
+        }
+        
+    }
+
+    @media screen and (max-width: 1100px) { 
+        body{font-size: 14.02px;
+        }
+    }
+
+    @media screen and (max-width: 450px) { 
+        body{font-size: 30px;
+        }
+
+    }
+
+    @media screen and (max-width: 1400px) {
+        #registro{
+            margin-left: 40%;
+            margin-right: 40%;
+        }
+        
+    }
+
+    @media screen and (max-width: 1100px) {
+        form{
+            margin-left: 15%;
+        }
+        
+    }
